@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+    font-size: 40px;
+    color: rgb(35, 66, 103);
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+.NavUl {
+    margin-left: auto;
+}
+
+.nav-link,
+.dropdown-menu {
+    margin-left: auto;
+    color: rgb(38, 96, 166);
+}
+
+.navbar-brand:hover,
+.dropdown-menu:hover {
+    color: rgb(53, 86, 125);
+    
+}
+.nav-link:hover,
+.dropdown-menu .dropdown-item:hover {
+    color: rgb(59, 93, 134);
+}
+.navbar-toggler,.navbar-toggler-icon{
+    color: rgb(119, 142, 169) !important;
+        /* Ensure specificity */
+        background-color:rgb(59, 93, 134) ;
+}
+.btn{
+    margin-right: auto;
+    border: 0 white solid;
+    border-radius: 20px;
+    background-color: rgb(38, 96, 166);
+}
+.btn:hover{
+    background-color: rgb(38, 96, 166);
+}
+.h1-jumbotron{
+    font-size: 40px;
+        color: rgb(35, 66, 103);
+        font-weight: 900;
+}
+.p-jumbotron{
+    color: rgb(38, 96, 166);
+}
