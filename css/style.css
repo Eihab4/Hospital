@@ -33,13 +33,15 @@ body {
     color: rgb(53, 86, 125);
     
 }
-.nav-link:hover,
-.dropdown-menu .dropdown-item:hover {
-    color: rgb(59, 93, 134);
+.navbar-nav .nav-link {
+    color: rgb(38, 96, 166) !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(53, 86, 125) !important;
 }
 .navbar-toggler,.navbar-toggler-icon{
     color: rgb(119, 142, 169) !important;
-        /* Ensure specificity */
         background-color:rgb(59, 93, 134) ;
 }
 .btn{
@@ -51,11 +53,37 @@ body {
 .btn:hover{
     background-color: rgb(38, 96, 166);
 }
-.h1-jumbotron{
-    font-size: 40px;
+.h1-jumbotron,.h1-our-doctors{
+    font-size: 35px;
         color: rgb(35, 66, 103);
         font-weight: 900;
 }
 .p-jumbotron{
     color: rgb(38, 96, 166);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns */
+    grid-template-rows: repeat(2, 200px);
+    /* Two rows, each 200px tall */
+    gap: 10px;
+    /* Gap between grid items */
+}
+
+.grid-item {
+    background-color: #ccc;
+    /* Gray background */
+}
+.h1-our-doctors{
+    text-align: center;
+    
+}
+.card-text {
+    overflow: hidden;
+    /* Hide any overflowing text */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    text-overflow: ellipsis;
+    /* Display an ellipsis (...) when text overflows */
 }
