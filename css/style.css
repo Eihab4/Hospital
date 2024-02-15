@@ -13,7 +13,7 @@ body {
 
 .navbar-brand {
     font-size: 40px;
-    color: rgb(35, 66, 103);
+    color: rgb(35, 66, 103) !important;
     font-weight: 900;
     margin-left: 30px;
 }
@@ -53,12 +53,12 @@ body {
 .btn:hover{
     background-color: rgb(38, 96, 166);
 }
-.h1-jumbotron,.h1-our-doctors{
+.h1-jumbotron,.h1-our-doctors,.h1-departments{
     font-size: 35px;
         color: rgb(35, 66, 103);
         font-weight: 900;
 }
-.p-jumbotron{
+.p-jumbotron,.modal-title,.card-title{
     color: rgb(38, 96, 166);
 }
 .grid-container {
@@ -75,15 +75,46 @@ body {
     background-color: #ccc;
     /* Gray background */
 }
-.h1-our-doctors{
+.h1-our-doctors,.h1-departments{
     text-align: center;
     
 }
-.card-text {
+.second-section .card-text {
     overflow: hidden;
-    /* Hide any overflowing text */
+    
     white-space: nowrap;
-    /* Prevent text from wrapping */
+    
     text-overflow: ellipsis;
-    /* Display an ellipsis (...) when text overflows */
+    
+}
+.accordion-button{
+    font-weight: bold;
+    color: rgb(35, 66, 103);
+}
+.icon,.last-icons{
+    color: rgb(35, 66, 103);
+    font-size: 25px;
+    opacity: 0.7;
+}
+.icon:hover,.last-icons:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.fourth-section{
+    background-color:rgb(225, 231, 238);    
+}
+a{
+    text-decoration: none;
+    color: rgb(38, 96, 166);
+    margin-top: 15px;
+}
+.list-header{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 15px 0;
+    font-weight: bold;
+    color: rgb(35, 66, 103);
+}
+.last-icons{
+    margin: 5px;
 }
